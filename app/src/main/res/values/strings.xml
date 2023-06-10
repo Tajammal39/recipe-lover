@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">recipe-lover</string>
-    <string name="tajammal">Tajammal</string>
+    <string name="recipeTitle1">Healthy Rice</string>
+    <string name="recipeDescription1">Appetizing Healthy Rice with vegetables white plate wooden table</string>
+    <string name="recipeTitle2">Fried Rice</string>
+    <string name="recipeDescription2">Fried Rice with Minced Pork Tomato Carrot Cucumber Plate</string>
+    <string name="recipeTitle3">Top View Wrice With Carrot</string>
+    <string name="recipeDescription3">Top view Rice with Carrot Cooked with Lamb served with Yogurt Salad</string>
+    <string name="todo">TODO</string>
+
 </resources>
