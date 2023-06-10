@@ -3,8 +3,8 @@
 
 ## Problem:
 
-The Recipe-Lover app aims to provide users with a platform to explore and view various recipes.Users
-should be able to browse a list of recipes, view details about each recipe, and save their favorite
+The Recipe-Lover app aims to provide users with a platform to explore and view various recipes. Users
+should be able to browse a list of recipes, view details about each recipe, and save their favourite
 recipes for future reference.
 
 ## Introduction:
@@ -12,7 +12,7 @@ recipes for future reference.
 The app designed to showcase various recipes and allow to explore, and view Details such as recipes
 title and Short Description and allow users can browse through a collection of recipes, view
 essential details
-about each recipe, and save their favorite recipes for easy access.
+about each recipe, and save their favourite recipes for easy access.
 
 ## Development Requirement:
 
@@ -34,13 +34,13 @@ screens and components:
 2. Recipe Details: This screen provides more information about a selected recipe. It displays the
    recipe's image, title, description, ingredients, and preparation
    steps.
-3. Favorites: Users can save their favorite recipes by tapping on a download icon available on the
+3. Favorites: Users can save their favourite recipes by tapping on a download icon available on the
    recipe details screen.
 
 ## Implementation Phase:
 
 1. Data Source Class:
-   Create a data source class that simulates a database or API functionality. It should store recipe
+   Create a data source class that simulates a database or API functionality. It should store the recipe
    items with their corresponding images, titles, and descriptions.
 
 2. Data Class:
@@ -51,13 +51,13 @@ screens and components:
    This class is responsible for displaying the primary user interface and handling user
    interactions. It should implement the following features:
 
-   - Display Recipe List: The main activity should fetch the list of recipes from the data source
-     class and display them in a RecyclerView.
-   - Recipe Details: When a recipe item is clicked, the app should navigate to the recipe details
-     screen, where all the relevant information about the recipe is displayed.
-   - Save Favorites: Users should be able to save their favorite recipes by tapping on the download
-     icon on the recipe details screen. The app should provide a way to store and retrieve these
-     saved recipes.
+    - Display Recipe List: The main activity should fetch the list of recipes from the data source
+      class and display them in a RecyclerView.
+    - Recipe Details: When a recipe item is clicked, the app should navigate to the recipe details
+      screen, where all the relevant information about the recipe is displayed.
+    - Save Favorites: Users should be able to save their favourite recipes by tapping on the download
+      icon on the recipe details screen. The app should provide a way to store and retrieve these
+      saved recipes.
 
 ## Testing Phase:
 
@@ -73,5 +73,5 @@ component behaves as intended.
 ### UI Testing:
 
 UI Testing: Implement UI tests to validate the app's user interface and user interactions. Test
-scenarios like scrolling through the recipe list, opening recipe details, saving favorites, and
+scenarios like scrolling through the recipe list, opening recipe details, saving favourites, and
 verifying the displayed information
