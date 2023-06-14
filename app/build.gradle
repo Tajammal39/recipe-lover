@@ -7,6 +7,10 @@ android {
     namespace 'com.example.recipe_lover'
     compileSdk 33
 
+    buildFeatures {
+        viewBinding true
+    }
+
     defaultConfig {
         applicationId "com.example.recipe_lover"
         minSdk 24

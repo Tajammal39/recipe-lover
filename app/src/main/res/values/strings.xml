@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">recipe-lover</string>
+    <string name="app_name">Recipe Lover</string>
     <string name="recipeTitle1">Healthy Rice</string>
     <string name="recipeDescription1">Appetizing Healthy Rice with vegetables white plate wooden table</string>
     <string name="recipeTitle2">Fried Rice</string>
@@ -7,5 +7,10 @@
     <string name="recipeTitle3">Top View Wrice With Carrot</string>
     <string name="recipeDescription3">Top view Rice with Carrot Cooked with Lamb served with Yogurt Salad</string>
     <string name="todo">TODO</string>
+    <string name="all_recipe">All Recipe</string>
+    <string name="favourite">favourite</string>
+    <string name="all_recipes">all_recipes</string>
+    <string name="favourit_recipes">Favourit Recipes</string>
+
 
 </resources>

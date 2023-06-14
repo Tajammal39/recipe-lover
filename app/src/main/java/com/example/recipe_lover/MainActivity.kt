@@ -1,46 +1,31 @@
 package com.example.recipe_lover
 
-import android.content.pm.PackageManager
+import android.content.Intent
+import android.graphics.Color
+import android.graphics.PorterDuff
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.recipe_lover.data.DataSource
 import com.example.recipe_lover.myadpter.ItemAdapter
 
-class MainActivity : AppCompatActivity() {
-    private val saveImage: ImageView = findViewById(R.id.saving_recipe)
-    override fun onCreate(savedInstanceState: Bundle?) {
+class MainActivity() : AppCompatActivity() {
+        override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val myData = DataSource().recipeDetail()
-        val recycler: RecyclerView = findViewById(R.id.recyclerView)
-        val adapter = ItemAdapter(myData, this)
-        val layoutManager = LinearLayoutManager(this)
-//        val layoutManager1 = RelativeLayout(this)
-        recycler.adapter = adapter
-        recycler.layoutManager = layoutManager
+        val allRecipeBtn: Button = findViewById(R.id.all_recipe_btn)
 
-        saveImage.setOnClickListener()
-        {
-            if (ContextCompat.checkSelfPermission(
-                    MainActivity.this,
-                    Manifest.permission.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-                ) == (PackageManager.PERMISSION_GRANTED)
-            ) {
-                saveRecipe()
-            }
-
+        allRecipeBtn.setOnClickListener {
+            val intent = Intent(this, RecycleListItem::class.java)
+            startActivity(intent)
         }
+
     }
-
-}
-
-private fun saveRecipe() {
-
 
 }
 

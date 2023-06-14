@@ -10,8 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="10dp"
-        >
+        android:padding="10dp">
 
         <ImageView
             android:layout_width="match_parent"
@@ -26,17 +25,14 @@
              android:layout_height="wrap_content"
              android:id="@+id/recipeTitle"
              android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
-             android:paddingTop="5dp"
-
-             />
+             android:paddingTop="5dp" />
 
 
         <ImageView
-            android:id="@+id/saving_recipe"
+            android:id="@+id/my_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/save_recipe_icon"
-             />
+           />
 
         <TextView
             android:layout_width="wrap_content"
